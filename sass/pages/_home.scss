@@ -2,6 +2,9 @@
   background-color: $color-grey-light-1;
   padding: 25rem 0rem;
   margin-top: -20vh;
+  &:target ~ .navigation {
+    display: none;
+  }
 }
 .section-features {
   padding: 20rem 0;
